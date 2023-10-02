@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&family=Poppins:wght@300&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+
+  background-color: white;
+  overflow-x: hidden;
+
+}
+
+/* Navbar section starts*/
+
+.logo-swiggy img {
+  width: 80px;
+  height: 56.1px;
+
+}
+
+.navbar-nav i {
+  color: #000;
+}
+
+/*.navbar-nav a:hover {
+    border-bottom: 3px solid #317aab;
+}*/
+
+.dropdown a {
+  text-decoration: none;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  padding-left: 2rem;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-align: left;
+  color: #000;
+}
+
+.nav-link a {
+  color: #000;
+}
+
+/* Navbar section ends*/
+
+/*Home section starts*/
+
+.home {
+  padding-top: 2rem;
+  padding-bottom: 4rem;
+}
+
+.home h4 {
+  font-family: Poppins;
+  color: #000;
+  font-style: bold;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.btn1 .btn-outline-secondary {
+  margin-right: 12px;
+  border-radius: 18px;
+  box-shadow: grey;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+/*Home section starts*/
+
+/*image carousal section*/
+
+.content {
+  font-family: Poppins;
+  color: #000;
+  font-style: bold;
+  font-weight: 600;
+  margin-bottom: 3rem;
+}
+
+.slider {
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+
+.side-track {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: scroll 40s linear infinite;
+  width: calc(100px*14);
+}
+
+.slider .slide {
+  height: 100px;
+  width: 250px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(calc(-100px * 7));
+  }
+}
+
+/*image carousal section*/
