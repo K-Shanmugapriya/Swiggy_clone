@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Playfair+Display&family=Poppins:wght@300&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Playfair Display', serif;
+}
+
+body {
+
+  background-color: white;
+  overflow-x: hidden;
+
+}
+
+/* Navbar section starts*/
+
+#navvv {
+  box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.09);
+}
+
+.logo-swiggy img {
+  width: 70px;
+  height: 55px;
+
+}
+
+.navbar-nav i {
+  color: #000;
+}
+
+/*.navbar-nav a:hover {
+    border-bottom: 3px solid #317aab;
+}*/
+
+.dropdown a {
+  text-decoration: none;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  padding-left: 2rem;
+}
+
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  text-align: left;
+  color: #000;
+}
+
+.nav-link a {
+  color: #000;
+}
+
+#nav:hover {
+  color: #FC8019;
+}
+
+.bi:hover {
+  color: #FC8019;
+}
+
+/* Navbar section ends*/
+
+/*hotel section starts*/
+
+.hotel {
+  padding-top: 2rem;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #000;
+}
+
+.hotel a {
+  font-size: large;
+  color: black;
+  padding-right: 1.5rem;
+}
+
+#like:hover
+{
+  color:red
+}
+
+.hotel .h1 {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #000;
+}
+
+.hotel h5 {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-family: poppins;
+  font-size: 17px;
+  font-weight: normal;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  font-weight: 600;
+  color: #000;
+
+}
+
+.hotel .h2 {
+  font-family: Montserrat;
+  font-size: 12px;
+}
+
+#box {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+#icon {
+  color: green;
+}
+
+.hotel .h3, .rating
+{
+  font-family: Montserrat;
+  font-size: 12px;
+}
+
+#bike .h4
+{
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+/*hotel section ends*/
+
+.line1
+{
+  /*border-top: 1px dashed black;*/
+  color: gray;
+  border: 1.5px dashed;
+  margin: 14px 380px 10px 380px;
+}
+
+/*Offer section starts*/
+
+#icon1
+{
+  padding-left: 3rem;
+  font-family: poppins;
+  font-size: 15px;
+  font-weight: 600;
+}
+
