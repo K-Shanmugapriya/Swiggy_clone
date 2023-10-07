@@ -127,7 +127,7 @@ body {
 }
 
 #box {
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-align: center;
 }
 
@@ -154,7 +154,6 @@ body {
   /*border-top: 1px dashed black;*/
   color: gray;
   border: 1.5px dashed;
-  margin: 14px 380px 10px 380px;
 }
 
 /*Offer section starts*/
@@ -165,5 +164,29 @@ body {
   font-family: poppins;
   font-size: 15px;
   font-weight: 600;
+}
+
+/* mobile responsive*/
+
+@media screen and (max-width: 426px) {
+
+#bike .h4
+{
+  padding-top: 2rem;
+}
+
+}
+
+
+/*Tablet Responsive*/
+
+@media screen and (min-width:769px) {
+
+  .line1
+  {
+    margin: 14px 380px 10px 380px;
+  }
+  
+
 }
 
