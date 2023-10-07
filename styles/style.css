@@ -18,9 +18,13 @@ body {
 
 /* Navbar section starts*/
 
+#navvv {
+  box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.09);
+}
+
 .logo-swiggy img {
-  width: 80px;
-  height: 56.1px;
+  width: 70px;
+  height: 55px;
 
 }
 
@@ -60,16 +64,24 @@ body {
   color: #000;
 }
 
+#nav:hover {
+  color: #FC8019;
+}
+
+.bi:hover {
+  color: #FC8019;
+}
+
 /* Navbar section ends*/
 
 /*Home section starts*/
 
 .home {
-  padding-top: 2rem;
+  padding-top: 0.5rem;
   padding-bottom: 4rem;
 }
 
-.home h4 {
+.home .content {
   font-family: Poppins;
   color: #000;
   font-style: bold;
@@ -78,11 +90,12 @@ body {
 }
 
 .btn1 .btn-outline-secondary {
-  margin-right: 12px;
+  /* margin-right: 12px;*/
   border-radius: 18px;
   box-shadow: grey;
   font-family: Montserrat;
   font-size: 14px;
+  margin-bottom: 4px;
 }
 
 /*Home section starts*/
@@ -129,3 +142,207 @@ body {
 }
 
 /*image carousal section*/
+
+/*Restaurant Section starts*/
+
+.restaurant {
+  margin-top: 1rem;
+}
+
+.restaurant img {
+  width: 255px;
+  height: 180px;
+  border-radius: 18px;
+}
+
+.restaurant .sub-heading {
+  margin-top: 1rem;
+  margin-left: .5rem;
+}
+
+.restaurant .heading {
+  /*font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: normal;*/
+
+  font-family: Poppins;
+  color: #000;
+  font-size: 18px;
+  font-style: bold;
+  font-weight: 600;
+}
+
+.restaurant .para {
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: normal;
+  line-height: 18px;
+
+}
+
+#col1 {
+  transition: transform .2s;
+}
+
+#col1:hover {
+  -ms-transform: scale(.95);
+  transform: scale(.95);
+}
+
+/*Restaurant section ends*/
+
+.line {
+  color: gray;
+  border: 1.5px solid;
+  margin: 35px 90px 50px 120px;
+}
+
+.places #col2 {
+  font-family: Montserrat;
+  font-size: 14px;
+  padding: 14px;
+  box-sizing: border-box;
+  border: 1.5px solid grey;
+  border-radius: 12px;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  /* margin-right: 1rem;*/
+
+  margin: 0rem 1rem 1rem;
+}
+
+/*places section ends*/
+
+/*Cuisines section starts*/
+
+.cuisines {
+  margin-top: 2rem;
+}
+
+.cuisines #col2 {
+  font-family: Montserrat;
+  font-size: 14px;
+  padding: 14px;
+  box-sizing: border-box;
+  border: 1.5px solid grey;
+  border-radius: 12px;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  margin: 0rem 1rem 1rem;
+
+}
+
+/*cuisine section ends*/
+
+/* Explore section starts*/
+
+.explore {
+  padding-top: 2rem;
+}
+
+.explore #col2 {
+  font-family: Montserrat;
+  font-size: 14px;
+  padding: 14px;
+  box-sizing: border-box;
+  border: 1.5px solid grey;
+  border-radius: 12px;
+  text-align: center;
+  color: black;
+  font-weight: 500;
+  margin: 0rem 1rem 1rem;
+
+}
+
+/* Explore section ends*/
+
+/*Footer section starts*/
+
+.footer {
+  margin: 130px 0 0;
+  padding: 55px 45px 39px 60px;
+  background-color: #000;
+  color: #fff;
+}
+
+.footer-col .logo1 {
+  text-decoration: none;
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+.footer-col .foo {
+  color: #fff;
+  font-family: Montserrat;
+  font-size: 14px;
+  padding-left: 1.6rem;
+
+}
+
+.footer-col h4 {
+  margin-bottom: 25px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: normal;
+  letter-spacing: 0.6px;
+  color: #fff;
+}
+
+.footer-col a {
+  text-decoration: none;
+  display: block;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 2.08;
+  letter-spacing: 0.6px;
+  color: #fff;
+
+}
+
+.footer-col .content_nav a:hover {
+  color: #fff;
+  padding-left: 8px;
+}
+
+.footer-col #col2 {
+  font-family: Montserrat;
+  font-size: 14px;
+  padding: 0;
+  border-radius: 12px;
+  color: white;
+  font-weight: 500;
+}
+
+/*Footer section ends*/
+
+
+
+/* mobile responsive*/
+
+@media screen and (max-width: 426px) {
+  /* places #col2
+{
+    margin-right: 0.5rem;
+}*/
+
+}
+
+
+/*Tablet Responsive*/
+
+@media screen and (min-width:769px) {
+
+  /*.places #col2
+{
+    margin-right: 2rem;
+}*/
+
+}
