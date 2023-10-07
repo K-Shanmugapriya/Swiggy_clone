@@ -1,4 +1,3 @@
-
 $(document).ready(function () {
     $(window).scroll(function () {
         // sticky navbar on scroll script
@@ -80,7 +79,7 @@ $(document).ready(function () {
         slidesToShow: 6,
         slidesToScroll: 1,
         autoplay: true,
-        autoplaySpeed: 1500,
+        autoplaySpeed: 500,
         arrows: false,
         dots: false,
         pauseOnHover: false,
@@ -97,3 +96,32 @@ $(document).ready(function () {
         }]
     });
 });
+
+
+
+
+/*$(document).ready(function () {
+    $('.logo-area').slick({
+        slidesToshow: 6,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 500,
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        responsive: [{
+            breakpoint: 768,
+            setting: {
+                slidesToShow: 4
+            }
+        }, {
+            breakpoint: 520,
+            setting: {
+                slidesToShow: 3
+            }
+        }]
+
+
+    });
+})
+*/
