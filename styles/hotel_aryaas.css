@@ -93,9 +93,8 @@ body {
   padding-right: 1.5rem;
 }
 
-#like:hover
-{
-  color:red
+#like:hover {
+  color: red
 }
 
 .hotel .h1 {
@@ -135,22 +134,20 @@ body {
   color: green;
 }
 
-.hotel .h3, .rating
-{
+.hotel .h3,
+.rating {
   font-family: Montserrat;
   font-size: 12px;
 }
 
-#bike .h4
-{
+#bike .h4 {
   font-family: Montserrat;
   font-size: 14px;
 }
 
 /*hotel section ends*/
 
-.line1
-{
+.line1 {
   /*border-top: 1px dashed black;*/
   color: gray;
   border: 1.5px dashed;
@@ -158,22 +155,123 @@ body {
 
 /*Offer section starts*/
 
-#icon1
-{
+#icon1 {
   padding-left: 3rem;
   font-family: poppins;
   font-size: 15px;
   font-weight: 600;
 }
 
+.offer #b1 {
+  margin-top: 2rem;
+  padding: 1.7%;
+}
+
+.offer .h11 {
+  font-family: Montserrat;
+  font-size: 12px;
+  padding: 0;
+}
+
+.offer .h12 {
+  font-family: Montserrat;
+  font-size: 12px;
+  padding: 0;
+}
+
+/* offer section ends*/
+
+/* menu section starts*/
+
+.menu .veg {
+  font-family: Montserrat;
+  font-size: 12px;
+  margin-top: 2rem;
+
+}
+
+.acordion-header {
+  background-color: white;
+}
+
+.accordion .title {
+  font-family: poppins;
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+  padding: 0;
+  letter-spacing: 0.2px;
+}
+
+.food {
+  padding-top: 0.5rem;
+  font-family: Montserrat;
+  font-size: 14px;
+}
+
+.content {
+  font-family: Montserrat;
+  font-size: 12px;
+  color: grey;
+}
+
+.add {
+  font-family: poppins;
+  font-size: 14px;
+  padding: 0;
+}
+
+#btn1 {
+
+  box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.12);
+}
+
+/*menu section ends*/
+
+/*details section starts*/
+
+.details {
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+
+#foo {
+  background-color: grey;
+  font-family: Montserrat;
+  font-size: 14px;
+  padding-bottom: 2rem;
+  opacity: 0.7;
+}
+
+.big {
+  font-size: larger;
+}
+
+.foo {
+  font-family: Montserrat;
+  font-size: 14px;
+  padding: 0;
+}
+
+/*details section ends*/
+
+
 /* mobile responsive*/
 
 @media screen and (max-width: 426px) {
 
-#bike .h4
-{
-  padding-top: 2rem;
-}
+  #bike .h4 {
+    padding-top: 2rem;
+  }
+
+  .offer #b1 {
+    margin-left: 4rem;
+  }
+
+  .menu .veg {
+    text-align: center;
+
+  }
 
 }
 
@@ -182,11 +280,15 @@ body {
 
 @media screen and (min-width:769px) {
 
-  .line1
-  {
-    margin: 14px 380px 10px 380px;
+  .line1 {
+    margin: 14px 260px 10px 220px;
   }
-  
+
+  #btn1 {
+    width: 100px;
+    box-shadow: 0 4px 35px 0 rgba(0, 0, 0, 0.12);
+  }
+
 
 }
 
